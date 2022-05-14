@@ -1,0 +1,119 @@
+@media (min-width: 320px) {
+    .header {
+        display: flex;
+        flex-direction: row;
+        /*justify-content: space-around;*/
+        height: 88px;
+        width: 100%;
+        /*bottom: 85%;*/
+        /*margin-bottom: 85.26%;*/
+
+        background-color: white;
+    }
+
+    .header_button1 {
+        display: flex;
+        flex-direction: row;
+
+        justify-content: flex-start;
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        border-color: #ff3e79;
+        background: url("img/burger.png") #ff3e79 no-repeat center;
+        margin: 24px auto 24px 16px;
+
+    }
+
+
+    .header_button2 {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        border-color: #ff3e79;
+        background: url("img/checkstatus.png") no-repeat center;
+        margin: 24px 8px 24px 16px;
+
+
+    }
+
+    .header_button3 {
+        flex-direction: row;
+        display: flex;
+        justify-content: flex-end;
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        border-color: #ff3e79;
+        background: url("img/repair.png") #ff3e79 no-repeat center;
+        margin: 24px 16px 24px 8px;
+
+
+    }
+
+    .body {
+        width: 100%;
+        height: 100%;
+        background-color: #F8F8F8;
+        margin: 0px;
+    }
+
+    .body_main_h1 {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        width: 288px;
+        height: 40px;
+        margin: 16px 16px 32px 16px;
+        /*margin-bottom: 100%;*/
+    }
+
+    .nav {
+
+        display: flex;
+        overflow-x: scroll;
+        /*justify-content: space-between;*/
+        /*flex-wrap: wrap;*/
+    }
+
+    .nav_a1 {
+        width: 246px;
+        height: 40px;
+        display: flex;
+        /*justify-content: center;*/
+        /*text-align: center;*/
+        border: 2px solid #B8FFEC;
+        background: white;
+        color: black; /* Белый цвет текста */
+        /*padding: 1rem 1.5rem; !* Поля вокруг текста *!*/
+        text-decoration: none; /* Убираем подчёркивание */
+        border-radius: 7px;
+        margin: 16px 16px 0px 16px;
+        padding: 8px 9px 8px 16px;
+    }
+
+    /*.nav_a1:hover,*/
+    /*.nav_a1:focus {*/
+    /*  outline: none;*/
+    /*  border: 2px solid #B8FFEC;*/
+    /*  background: white;*/
+    /*}*/
+    .nav_a2 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: black; /* Белый цвет текста */
+        /*padding: 1rem 1.5rem; !* Поля вокруг текста *!*/
+        text-decoration: none; /* Убираем подчёркивание */
+        border-radius: 7px;
+        margin: 16px 16px 0px 0px;
+        padding: 8px 9px 8px 16px;
+    }
+
+    .section_p {
+        margin: 24px 16px auto 16px;
+    }
+}
