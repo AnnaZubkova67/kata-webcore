@@ -152,13 +152,6 @@
 }
 
 @media (min-width: 768px) {
-    /*.menu {*/
-    /*    display: flex;*/
-    /*    height: 88px;*/
-    /*    width: 100%;*/
-    /*    background-color: white;*/
-    /*}*/
-
     .menu__delimiter1 {
         display: flex;
         width: 2px;
@@ -167,9 +160,6 @@
     }
 
     .menu__logo {
-        /*align-self: flex-start;*/
-        /*width: 96px;*/
-        /*height: 50px;*/
         margin: 18px 0 18px 0;
     }
 
@@ -204,8 +194,6 @@
     }
 
     .menu__delimiter2 {
-        width: 2px;
-        height: 32px;
         margin: 28px 20px 28px 0;
     }
 
@@ -296,15 +284,10 @@
     .nav__a2 {
         border: none;
         background: none;
-        /*font-family: 'TT Lakes';*/
         display: flex;
         width: auto;
         white-space: nowrap;
-        /*color: #7E7E82;*/
-        /*text-decoration: none;*/
-        /*border-radius: 7px;*/
         margin: 0 16px 0 0;
-        /*padding: 8px 9px 8px 16px;*/
     }
 
     .nav__a5 {
