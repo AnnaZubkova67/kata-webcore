@@ -58,13 +58,13 @@
     align-self: center;
     width: 40px;
     margin: auto;
-    background: url("/img/icon-search.svg") no-repeat center #FF3E79;
+    background: url("../img/icon-search.svg") no-repeat center #FF3E79;
 }
 
 .list {
     display: flex;
     align-self: center;
-    background: url("/img/icon-closed.svg") no-repeat center #FF3E79;
+    background: url("../img/icon-closed.svg") no-repeat center #FF3E79;
 }
 
 .nav {
@@ -93,7 +93,7 @@
 
 .call {
     align-self: center;
-    background: url("/img/icon-call.svg") no-repeat center #FF3E79;
+    background: url("../img/icon-call.svg") no-repeat center #FF3E79;
 }
 
 .chat {
@@ -103,7 +103,7 @@
 
 .profile {
     display: flex;
-    background: url("./img/icon-profile.svg") no-repeat center #FF3E79;
+    background: url("../img/icon-profile.svg") no-repeat center #FF3E79;
 }
 
 .call-chat-profile {

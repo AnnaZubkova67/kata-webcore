@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1407dba-5826-4292-a546-33b1ab295c28" name="Changes" comment="first new" />
+    <list default="true" id="c1407dba-5826-4292-a546-33b1ab295c28" name="Changes" comment="first new">
+      <change beforePath="$PROJECT_DIR$/menu/menu-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/menu/menu-style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -185,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653635262748</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="first new">
+      <created>1653640055784</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1653640055784</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
