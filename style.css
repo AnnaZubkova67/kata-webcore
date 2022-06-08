@@ -392,6 +392,15 @@
 }
 
 @media (min-width: 1120px) {
+
+    .body__header {
+        background-color: #F8F8F8;
+    }
+
+    .body__header_type_menu {
+        background-color: white;
+    }
+
     .brands__content {
         margin-right: 15px;
         width: 240px;
