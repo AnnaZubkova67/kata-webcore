@@ -2,10 +2,10 @@ const slider = document.querySelector('.swiper');
 let mySwiper;
 
 function mobileSlider() {
-    if (window.innerWidth <= 600 && slider.dataset.mobile == "false") {
-        new Swiper(slider, {
+    if (window.innerWidth < 768 && slider.dataset.mobile == "false") {
+        document.getElementsByClassName('swiper-pagination')[0].style.display = "block";
+        mySwiper = new Swiper(slider, {
             slideClass: "brands",
-            watchOverflow: true,
             breakpoints: {
                 320: {
                     slidesPerView: 1.2,
@@ -24,18 +24,18 @@ function mobileSlider() {
                 clickable: true,
             },
         });
-        slider.dataset.mobile = "true"
+        slider.dataset.mobile = "true";
     }
-    if (window.innerWidth > 600) {
+    if (window.innerWidth >= 768) {
         slider.dataset.mobile = "false";
-        if (slider.classList.contains('swiper-container-initialized')) {
+            document.getElementsByClassName('swiper-pagination')[0].style.display = "none";
             mySwiper.destroy();
-        }
+
     }
 }
 
 mobileSlider();
-window.addEventListener('resize', () => {
+window.addEventListener('resize', function () {
     mobileSlider();
 });
 let linkOnwards = document.querySelector('.link-onwards_type_show');
