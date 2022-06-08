@@ -3,9 +3,10 @@ let mySwiper;
 
 function mobileSlider() {
     if (window.innerWidth < 768 && slider.dataset.mobile == "false") {
-        document.getElementsByClassName('swiper-pagination')[0].style.display = "block";
+        document.getElementsByClassName('swiper-pagination')[0].style.display = "block",
         mySwiper = new Swiper(slider, {
             slideClass: "brands",
+            watchOverflow: true,
             breakpoints: {
                 320: {
                     slidesPerView: 1.2,
@@ -28,8 +29,13 @@ function mobileSlider() {
     }
     if (window.innerWidth >= 768) {
         slider.dataset.mobile = "false";
-            document.getElementsByClassName('swiper-pagination')[0].style.display = "none";
+
+        //
+        if (slider.classList.contains('swiper-initialized')) {
             mySwiper.destroy();
+            document.getElementsByClassName('swiper-pagination')[0].style.display = "none";
+
+        }
 
     }
 }
