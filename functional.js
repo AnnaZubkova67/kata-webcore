@@ -43,7 +43,9 @@ function mobileSlider() {
 mobileSlider();
 window.addEventListener('resize', function () {
     mobileSlider();
+    click();
 });
+function click(){
 let linkOnwards = document.querySelector('.link-onwards_type_show');
 let brandsTypeSony = document.querySelector('.brands_type_sony');
 let brandsTypeSonic = document.querySelector('.brands_type_sonic');
@@ -85,6 +87,8 @@ if (displayBrandsTypeSony == "flex" && displayBrandsTypeSonic == "flex") {
         linkHide.style.display = "none";
     });
 }
+}
+click();
 
 
 
