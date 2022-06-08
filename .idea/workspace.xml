@@ -1,148 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1407dba-5826-4292-a546-33b1ab295c28" name="Changes" comment="first new">
-      <change afterPath="$PROJECT_DIR$/1.3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.3css.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brands.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/copy-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/copy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/acer.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/apple.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/bosch.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/hp.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icon-hide.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/lenovo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/samsung.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sonic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sony.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swiper/swiper-bundle.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swiper/swiper-bundle.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-Black.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-Black.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-Black.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-BlackItalic.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-BlackItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-BlackItalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-Bold.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-Bold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-BoldItalic.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-BoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-BoldItalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-DemiBold.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-DemiBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-DemiBold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-DemiBoldItalic.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-DemiBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-DemiBoldItalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-ExtraBold.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-ExtraBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-ExtraBold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-ExtraBoldItalic.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-ExtraBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-ExtraBoldItalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-ExtraLight.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-ExtraLight.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-ExtraLight.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-ExtraLightItalic.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-ExtraLightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-ExtraLightItalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-Italic.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-Italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-Italic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-Light.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-Light.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-LightItalic.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-LightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-LightItalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-Medium.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-Medium.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-MediumItalic.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-MediumItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-MediumItalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-Regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-Regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-Thin.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-Thin.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-Thin.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-ThinItalic.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-ThinItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCompressed-ThinItalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-Black.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-Black.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-Black.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-BlackItalic.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-BlackItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-BlackItalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-Bold.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-Bold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-BoldItalic.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-BoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-BoldItalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-DemiBold.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-DemiBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-DemiBold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-DemiBoldItalic.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-DemiBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-DemiBoldItalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-ExtraBold.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-ExtraBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-ExtraBold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-ExtraBoldItalic.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-ExtraBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-ExtraBoldItalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-ExtraLight.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-ExtraLight.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-ExtraLight.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-ExtraLightItalic.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-ExtraLightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-ExtraLightItalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-Italic.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-Italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-Italic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-Light.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-Light.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-LightItalic.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-LightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-LightItalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-Medium.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-Medium.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-MediumItalic.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-MediumItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-MediumItalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-Regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-Regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-Thin.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-Thin.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-Thin.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-ThinItalic.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-ThinItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/TTLakesCondensed-ThinItalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/burger.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/burger.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/call.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/chat.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/checkstatus.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/checkstatus.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/highlight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/repair.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/repair.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/menu/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/menu/menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="c1407dba-5826-4292-a546-33b1ab295c28" name="Changes" comment="first new" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -226,7 +85,7 @@
       <workItem from="1653386609935" duration="31478000" />
       <workItem from="1653633698161" duration="76000" />
       <workItem from="1653633796395" duration="1485000" />
-      <workItem from="1653987893348" duration="88913000" />
+      <workItem from="1653987893348" duration="89225000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1652539048419</created>
@@ -396,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653654942375</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="first new">
+      <created>1654679892017</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1654679892017</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
