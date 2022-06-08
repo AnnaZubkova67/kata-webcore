@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1407dba-5826-4292-a546-33b1ab295c28" name="Changes" comment="first new">
-      <change beforePath="$PROJECT_DIR$/copy.html" beforeDir="false" afterPath="$PROJECT_DIR$/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +87,7 @@
       <workItem from="1653386609935" duration="31478000" />
       <workItem from="1653633698161" duration="76000" />
       <workItem from="1653633796395" duration="1485000" />
-      <workItem from="1653987893348" duration="89547000" />
+      <workItem from="1653987893348" duration="90296000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1652539048419</created>
@@ -278,7 +278,21 @@
       <option name="project" value="LOCAL" />
       <updated>1654680086857</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="first new">
+      <created>1654680244424</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1654680244424</updated>
+    </task>
+    <task id="LOCAL-00029" summary="first new">
+      <created>1654680428097</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1654680428097</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,7 +309,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="menu" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>

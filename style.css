@@ -424,7 +424,7 @@
     }
 
     .section__img {
-        min-width: 531px;
+        width: 531px;
         height: 307px;
         flex-grow: 2;
         margin: 0 25px 40px 0;
