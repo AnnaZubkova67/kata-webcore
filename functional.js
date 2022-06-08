@@ -87,6 +87,10 @@ if (displayBrandsTypeSony == "flex" && displayBrandsTypeSonic == "flex") {
         linkHide.style.display = "none";
     });
 }
+if(window.innerWidth < 768 && slider.dataset.mobile == "false"){
+    linkOnwards.style.display = "none";
+    linkHide.style.display = "none";
+}
 }
 click();
 
