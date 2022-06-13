@@ -26,7 +26,7 @@ window.addEventListener('resize', function () {
 });
 mobileSlider();
     let linkOnwards = document.querySelector('.link-onwards_type_show');
-    let content = document.querySelector('.navigation__cards-brands')
+    let content = document.querySelector('.navigation__cards')
     linkOnwards.addEventListener('click', function () {
         if (content.classList.contains("open")) {
             content.classList.remove("open");
