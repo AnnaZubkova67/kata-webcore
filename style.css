@@ -81,7 +81,6 @@
         height: 32px;
         right: 20px;
         top: 3px;
-
     }
 
     .body__button-repair {
@@ -223,7 +222,6 @@
     .language__link_russian_active {
         margin-right: 7px;
         color: #7E7E82;
-
     }
 
     .language__link_english {
@@ -237,24 +235,19 @@
     .section_text-history,
     .section_text-clients,
     .body__link-status,
-    .link-onwards_type_hide,
     .link-onwards_type_show {
         display: none;
     }
 
-    .body__content-brands {
-        height: 234px;
-    }
-
     .brands__content {
         display: flex;
-        min-width: 0;
-        width: 240px;
+        align-items: flex-end;
+        width: 224px;
         height: 72px;
         background-color: white;
         border-radius: 6px;
         border: 1px solid #d7d5d5;
-        margin: 16px 16px 0 16px;
+        margin: 16px 8px 0 16px;
     }
 
     .brands__image {
@@ -265,6 +258,7 @@
     .brands__button-onwards {
         align-self: center;
         margin-right: 16px;
+        margin-left: auto;
         background-color: white;
         border: 2px solid #FF3E79;
         background-image: url("img/arrow.svg");
@@ -276,57 +270,68 @@
         color: #7E7E82;
         align-self: center;
         margin-left: 16px;
-
+        text-transform: uppercase;
     }
 
     .block-name {
         display: flex;
         height: 80px;
-        background-color: white;
-    }
-
-    .slider-container {
-        display: flex;
-        justify-content: space-between;
+        background: linear-gradient(90deg, #F8F8F8 1.39%, white 100%);
+        border-top: 1px solid #D9FFF5;
     }
 
     .swiper-pagination {
         top: 190px;
     }
 
+    .navigation__cards-brands {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        list-style-type: none;
+        padding-inline-start: 0;
+        margin-block-start: 0;
+        margin-block-end: 0;
+    }
+
 }
 
 @media (min-width: 768px) {
-    .brands__content {
-        margin-right: 10px;
-        width: 224px;
+    .body__content-brands {
+        display: flex;
+        flex-direction: column;
     }
 
+    .navigation__cards-brands {
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        height: 190px;
+    }
+
+    .open {
+        min-height: 360px;
+        max-height: 400px;
+    }
+
+    .hide::before {
+        content: url("img/icon-hide.svg");
+        margin-right: 16px;
+        margin-left: 0;
+    }
+
+    .brands__content {
+        max-width: 224px;
+    }
 
     .link-onwards_type_show {
-        display: flex;
+        display: block;
+        margin-top: 20px;
+        margin-left: 32px;
     }
-
-    .body__content-brands {
-        height: 322px;
-    }
-
 
     .brands-swiper {
         display: flex;
         flex-wrap: wrap;
-    }
-
-    .link-onwards_type_show,
-    .link-onwards_type_hide {
-        position: relative;
-        top: 20px;
-        left: 32px;
-    }
-
-    .link-onwards_type_hide {
-        display: none;
-
     }
 
     .link-onwards_type_hide:before {
@@ -334,7 +339,6 @@
         margin-right: 16px;
         margin-left: 0;
     }
-
 
     .body__logo {
         margin: 18px auto 0 0;
@@ -379,18 +383,16 @@
         flex-wrap: nowrap;
     }
 
-    .brands_type_lenovo-2,
-    .brands_type_samsung-2,
-    .brands_type_apple-2,
-    .brands-swiper__hidden,
-    .brands_type_sony,
-    .brands_type_sonic {
-        display: none;
-    }
-
 }
 
 @media (min-width: 1120px) {
+    .open {
+        min-height: 300px;
+    }
+
+    .brands__content {
+        max-width: 240px;
+    }
 
     .body__header {
         background-color: #F8F8F8;
@@ -398,16 +400,6 @@
 
     .body__header_type_menu {
         background-color: white;
-    }
-
-    .brands__content {
-        margin-right: 15px;
-        width: 240px;
-    }
-
-    .brands_type_sony,
-    .brands_type_sonic {
-        display: flex;
     }
 
     .body__link-application {
@@ -432,11 +424,10 @@
     }
 
     .section__img {
-       min-width: 525px;
-       min-height: 307px;
+        min-width: 525px;
+        min-height: 307px;
         flex-grow: 2;
         margin: 0 25px 40px 0;
-        flex-grow: 2;
     }
 
     .navigation__ul_type_horizontal {
