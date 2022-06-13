@@ -281,10 +281,11 @@
     }
 
     .swiper-pagination {
-        top: 190px;
+        position: relative;
+        top: 20px;
     }
 
-    .navigation__cards-brands {
+    .navigation__cards {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
@@ -302,7 +303,7 @@
         flex-direction: column;
     }
 
-    .navigation__cards-brands {
+    .navigation__cards {
         flex-flow: row wrap;
         justify-content: space-evenly;
         height: 190px;

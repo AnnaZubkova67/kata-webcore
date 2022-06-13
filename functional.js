@@ -5,6 +5,7 @@ function mobileSlider() {
         document.querySelector('.swiper-pagination').style.display = "block",
             mySwiper = new Swiper(slider, {
                 slideClass: "brands",
+                slidesPerView: 1.3,
                 pagination: {
                     el: '.swiper-pagination',
                     clickable: true,
