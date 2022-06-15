@@ -11,7 +11,7 @@ if (window.innerWidth >= 768) {
     mySwiper.destroy();
     document.querySelector('.swiper-pagination').style.display = "none";
 }
-let linkOnwards = document.querySelector('.link-onwards_type_show');
+let linkOnwards = document.querySelector('.link-onwards--type--show');
 let content = document.querySelector('.navigation__cards')
 linkOnwards.addEventListener('click', function () {
     if (content.classList.contains("open")) {

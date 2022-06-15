@@ -235,7 +235,7 @@
     .section_text-history,
     .section_text-clients,
     .body__link-status,
-    .link-onwards_type_show {
+    .link-onwards--type--show {
         display: none;
     }
 
@@ -264,7 +264,7 @@
         background-image: url("img/arrow.svg");
     }
 
-    .block-name_text {
+    .block-name__text {
         margin-block-start: 0;
         margin-block-end: 0;
         color: #7E7E82;
@@ -323,7 +323,7 @@
         max-width: 224px;
     }
 
-    .link-onwards_type_show {
+    .link-onwards--type--show {
         display: block;
         margin-top: 20px;
         margin-left: 32px;
