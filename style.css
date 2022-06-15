@@ -310,8 +310,7 @@
     }
 
     .open {
-        min-height: 360px;
-        max-height: 400px;
+        height: 100%;
     }
 
     .hide::before {
@@ -388,7 +387,7 @@
 
 @media (min-width: 1120px) {
     .open {
-        min-height: 300px;
+        height: 100%;
     }
 
     .brands__content {
