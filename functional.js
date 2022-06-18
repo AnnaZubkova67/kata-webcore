@@ -1,7 +1,8 @@
 const slider = document.querySelector('.swiper');
 let mySwiper = new Swiper(slider, {
     slideClass: "brands",
-    slidesPerView: 1.3,
+
+
     pagination: {
         el: '.swiper-pagination',
         clickable: true,
