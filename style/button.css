@@ -1,0 +1,18 @@
+@media (min-width: 320px) {
+    .button {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: #FF3E79;
+        border: 0 solid #FF3E79;
+        background-repeat: no-repeat;
+        background-position: center;
+        flex-shrink: 0;
+    }
+
+    .button:hover {
+        background-color: rgba(183, 174, 179, 0.82);
+        transition: background-color 400ms linear 0s;
+    }
+
+}
