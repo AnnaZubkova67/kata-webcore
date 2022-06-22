@@ -1,0 +1,35 @@
+@media (min-width: 320px) {
+    .title {
+        height: 40px;
+        margin-block-start: 0;
+        margin-block-end: 0;
+    }
+
+    .title::before {
+        content: url("../img/highlight (1).svg");
+        margin-right: 12px;
+        margin-left: 0;
+        position: relative;
+        top: 10px;
+    }
+    .title--type--name-modal {
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+    .title--type--name-modal {
+        position: relative;
+        /*top: 80px;*/
+
+    }
+}
+
+@media (min-width: 1440px) {
+    .title--type--content {
+        position: absolute;
+        top: 35px;
+    }
+    .title--type--name-modal {
+        position: relative;
+        top: 0;
+    }
+}

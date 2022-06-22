@@ -1,0 +1,58 @@
+.section {
+  @media (min-width: 320px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  @media (min-width: 768px) {
+    flex-wrap: nowrap;
+  }
+
+  &__text {
+    @media (min-width: 320px) {
+      margin: 24px auto 0 16px;
+      height: 145px;
+      overflow: hidden;
+      mask-image: linear-gradient(to top, transparent 0%, transparent 2rem, rgb(0, 0, 0) 2rem, rgb(0, 0, 0) 100%), linear-gradient(to right, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 28px, transparent 52px, transparent 100%);
+    }
+    @media (min-width: 768px) {
+      height: 210px;
+    }
+    @media (min-width: 1440px) {
+      overflow: hidden;
+      height: 220px;
+      margin: 0 48px 16px 16px;
+    }
+  }
+
+  &__img {
+    @media (min-width: 320px) {
+      margin-right: auto;
+      margin-left: auto;
+      border-radius: 7px;
+    }
+    @media (min-width: 768px) {
+      min-width: 360px;
+      height: 100%;
+      width: 100%;
+      margin: 40px 25px 40px 0;
+    }
+    @media (min-width: 1440px) {
+      min-width: 525px;
+      min-height: 307px;
+      flex-grow: 2;
+      margin: 0 25px 40px 0;
+    }
+  }
+
+  &__content {
+    @media (min-width: 320px) {
+      display: flex;
+      flex-direction: column;
+    }
+    @media (min-width: 1440px) {
+      height: auto;
+    }
+  }
+}
+
+

@@ -1,0 +1,7 @@
+@media (min-width: 320px) {
+    .swiper-pagination {
+        position: relative;
+        top: 20px;
+        z-index: 2;
+    }
+}

@@ -1,0 +1,26 @@
+@media (min-width: 320px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: auto;
+        color: #7E7E82;
+        background-color: #F8F8F8;
+        border-top: 1px solid #D9FFF5;
+    }
+
+    .footer__text {
+        align-items: center;
+        margin-left: 16px;
+        font-size: 14px;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .footer {
+        flex-direction: row;
+        height: 105px;
+    }
+}
