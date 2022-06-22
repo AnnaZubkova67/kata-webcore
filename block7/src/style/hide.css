@@ -1,0 +1,9 @@
+@media (min-width: 320px) {
+
+    .hide::before {
+        content: url("../img/icon-hide.svg");
+        margin-right: 16px;
+        margin-left: 0;
+    }
+
+}

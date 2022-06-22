@@ -1,0 +1,9 @@
+.hide{
+  &::before {
+    @media (min-width: 320px) {
+      //content: url("../block7/src/img/icon-hide.svg");
+      margin-right: 16px;
+      margin-left: 0;
+    }
+  }
+}

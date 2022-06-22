@@ -1,6 +1,7 @@
 @import "style/body.css";
 @import "style/button-closed.css";
 @import "style/button.css";
+@import "style/block-name.scss";
 @import "style/link.css";
 @import "style/title.css";
 @import "style/navigation.css";

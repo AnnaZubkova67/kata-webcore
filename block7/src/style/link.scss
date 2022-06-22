@@ -1,0 +1,15 @@
+
+  .link {
+    @media (min-width: 320px) {
+    //font-family: 'TT Lakes';
+    white-space: nowrap;
+    color: black;
+    text-decoration: none;
+  }
+
+  &:hover {
+    @media (min-width: 320px) {
+      color: #7E7E82;
+    }
+  }
+}

@@ -1,0 +1,7 @@
+@media (min-width: 320px) {
+    .open-modal{
+        display: flex;
+        position: fixed;
+    }
+
+}

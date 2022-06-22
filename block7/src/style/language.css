@@ -1,0 +1,14 @@
+@media (min-width: 320px) {
+    .language__link {
+        color: black;
+    }
+
+    .language__link--russian--active {
+        margin-right: 7px;
+        color: #7E7E82;
+    }
+
+    .language__link--english {
+        margin-right: 7px;
+    }
+}
