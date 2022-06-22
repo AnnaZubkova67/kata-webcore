@@ -90,7 +90,7 @@
     }
   }
 
-  .modal--type--menu {
+  &--type--menu {
     @media (min-width: 1440px) {
       display: flex;
       position: absolute;

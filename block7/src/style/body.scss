@@ -30,6 +30,9 @@
       height: 100%;
       background-color: white;
     }
+    @media (min-width: 1440px) {
+      box-shadow: none;
+    }
   }
 
   &__button-search {
@@ -116,26 +119,26 @@
     }
   }
 
-  &__button-menu-call {
-    @media (min-width: 320px) {
-      margin-right: 16px;
-      background-image: url("../img/icon-call.svg");
-    }
-  }
-
-  &__button-menu-chat {
-    @media (min-width: 320px) {
-      margin-right: 16px;
-      background-image: url("../img/icon-chat.svg");
-    }
-  }
-
-  &__button-menu-profile {
-    @media (min-width: 320px) {
-      margin: 24px 16px 0 0;
-      background-image: url("../img/icon-profile.svg");
-    }
-  }
+  //&__button-menu-call {
+  //  @media (min-width: 320px) {
+  //    margin-right: 16px;
+  //    background-image: url("../img/icon-call.svg");
+  //  }
+  //}
+  //
+  //&__button-menu-chat {
+  //  @media (min-width: 320px) {
+  //    margin-right: 16px;
+  //    background-image: url("../img/icon-chat.svg");
+  //  }
+  //}
+  //
+  //&__button-menu-profile {
+  //  @media (min-width: 320px) {
+  //    margin: 24px 16px 0 0;
+  //    background-image: url("../img/icon-profile.svg");
+  //  }
+  //}
 
   &__footer {
     @media (min-width: 320px) {
@@ -228,22 +231,6 @@
     }
   }
 
-  &__button-closed--type--modal {
-    @media (min-width: 320px) {
-      margin: 20px auto 2px 8px;
-      height: 40px;
-    }
-  }
-
-  &__button-call--type--menu-fixed {
-    @media (min-width: 320px) {
-      display: flex;
-    }
-    @media (min-width: 1440px) {
-      display: flex;
-    }
-  }
-
   &__button-call {
     @media (min-width: 320px) {
       display: none;
@@ -310,6 +297,25 @@
     }
 
   }
+  &__button-closed--type--modal {
+    @media (min-width: 320px) {
+      margin: 20px auto 2px 8px;
+      height: 40px;
+    }
+  }
 
+  &__button-call--type--menu-fixed {
+    @media (min-width: 320px) {
+      display: flex;
+    }
+    @media (min-width: 1440px) {
+      display: flex;
+    }
+  }
+ &__button-profile--type--menu-fixed{
+   @media (min-width: 320px) {
+     display: flex;
+   }
+ }
 }
 

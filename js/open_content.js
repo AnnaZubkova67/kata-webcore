@@ -1,5 +1,5 @@
-let linkOnwards = document.querySelectorAll('.link-onwards--type--show');
-let content = document.querySelectorAll('.content');
+export let linkOnwards = document.querySelectorAll('.link-onwards--type--show');
+export let content = document.querySelectorAll('.content');
 for (let i = 0; i < linkOnwards.length; i++) {
     let linkOnward = linkOnwards[i];
     linkOnward.addEventListener('click', function (evt) {
