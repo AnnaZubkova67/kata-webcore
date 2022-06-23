@@ -1,4 +1,4 @@
-import Swiper from "https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js"
+import Swiper from 'swiper';
 export const sliderBrands = document.querySelector('.swiper-brands');
 export const sliderTypes = document.querySelector('.swiper-types');
 export const sliderServices = document.querySelector('.swiper-services');
