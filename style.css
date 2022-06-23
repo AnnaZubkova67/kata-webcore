@@ -22,7 +22,8 @@
 @media (min-width: 320px) {
   .body {
     margin: 0;
-    background-color: #F8F8F8; } }
+    background-color: #F8F8F8;
+    overflow: auto; } }
 
 @media (min-width: 1440px) {
   .body {
@@ -50,7 +51,8 @@
 
 @media (min-width: 1440px) {
   .body__content-menu {
-    box-shadow: none; } }
+    box-shadow: none;
+    overflow: visible; } }
 
 @media (min-width: 320px) {
   .body__button-search {
@@ -137,6 +139,10 @@
     height: 164px;
     display: flex;
     flex-wrap: wrap;
+    margin: auto 100px auto 24px; } }
+
+@media (min-width: 768px) {
+  .body__footer {
     margin: 268px 100px auto 24px; } }
 
 @media (min-width: 320px) {
@@ -188,7 +194,8 @@
 
 @media (min-width: 768px) {
   .body__content-types {
-    height: auto; } }
+    height: auto;
+    padding: 5px; } }
 
 @media (min-width: 320px) {
   .body__price-explanation {
@@ -252,7 +259,8 @@
   .body__content-brands {
     height: auto;
     display: flex;
-    flex-direction: column; } }
+    flex-direction: column;
+    padding: 5px; } }
 
 @media (min-width: 320px) {
   .body__button-profile {
