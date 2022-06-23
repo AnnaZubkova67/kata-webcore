@@ -1,7 +1,8 @@
+// import Swiper from 'swiper';
+export const sliderBrands = document.querySelector('.swiper-brands');
+export const sliderTypes = document.querySelector('.swiper-types');
+export const sliderServices = document.querySelector('.swiper-services');
 if (window.innerWidth < 768) {
-    const sliderBrands = document.querySelector('.swiper-brands');
-    const sliderTypes = document.querySelector('.swiper-types');
-    const sliderServices = document.querySelector('.swiper-services');
     function swiper(numberSlider, classPagination) {
         let mySwiper = new Swiper(numberSlider, {
             breakpoints: {

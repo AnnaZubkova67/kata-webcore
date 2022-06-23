@@ -1,4 +1,5 @@
-let modal = document.querySelector('.modal');
+export let modal = document.querySelector('.modal');
+export let modalMenu = document.querySelector('.modal--type--menu');
 modal.addEventListener('click', function (evt) {
     evt.preventDefault();
     modalMenu.classList.remove('open-modal');
