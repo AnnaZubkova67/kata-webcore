@@ -1,0 +1,69 @@
+
+
+//@font-face {
+//  font-family: 'Comic';
+//  src: url('../fonts/comic.ttf') format('truetype');
+//  font-weight: normal;
+//  font-style: italic;
+//}
+//
+//body {
+//  padding: 1rem;
+//  margin: 0;
+//  font-family: Comic, sans-serif;
+//  background-color: $bgColor;
+//  color: $text;
+//}
+@font-face {
+  font-family: 'TT Lakes';
+  src: url('../fonts/TTLakes-Bold.eot');
+  src: local('TT Lakes Bold'), local('TTLakes-Bold'),
+  url('../fonts/TTLakes-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/TTLakes-Bold.woff') format('woff'),
+  url('../fonts/TTLakes-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TT Lakes';
+  src: url('../fonts/TTLakes-Medium.eot');
+  src: local('TT Lakes Medium'), local('TTLakes-Medium'),
+  url('../fonts/TTLakes-Medium.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/TTLakes-Medium.woff') format('woff'),
+  url('../fonts/TTLakes-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TT Lakes';
+  src: url('../fonts/TTLakes-Regular.eot');
+  src: local('TT Lakes Regular'), local('TTLakes-Regular'),
+  url('../fonts/TTLakes-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/TTLakes-Regular.woff') format('woff'),
+  url('../fonts/TTLakes-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@import "../style/body.scss";
+@import "../style/button-closed.scss";
+@import "../style/button.scss";
+@import "../style/block-name.scss";
+@import "../style/link.scss";
+@import "../style/title.scss";
+@import "../style/navigation.scss";
+@import "../style/contacts.scss";
+@import "../style/language.scss";
+@import "../style/card.scss";
+@import "../style/link-onwards.scss";
+@import "../style/section.scss";
+@import "../style/swiper-pagination.scss";
+@import "../style/text.scss";
+@import "../style/block-name.scss";
+@import "../style/button-order.scss";
+@import "../style/footer.scss";
+@import "../style/modal.scss";
+@import "../style/open.scss";
+@import "../style/hide.scss";
+@import "../style/open-modal.scss";
+@import "../style/closed.scss";
+
