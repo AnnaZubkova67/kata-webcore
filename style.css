@@ -192,7 +192,7 @@
 
 @media (min-width: 320px) {
   .body__price-explanation {
-    margin: 44px 16px auto 16px; } }
+    margin: 44px 16px auto 14px; } }
 
 @media (min-width: 768px) {
   .body__price-explanation {
@@ -202,7 +202,7 @@
   .body__offer {
     display: flex;
     white-space: normal;
-    margin-left: 16px;
+    margin-left: 14px;
     margin-top: 16px;
     margin-bottom: 10px;
     font-weight: 500; } }
@@ -243,6 +243,10 @@
 @media (min-width: 1440px) {
   .body__button-chat {
     display: none; } }
+
+@media (min-width: 320px) {
+  .body__content-brands {
+    height: 219px; } }
 
 @media (min-width: 768px) {
   .body__content-brands {
@@ -333,7 +337,7 @@
     flex-shrink: 0; } }
   @media (min-width: 320px) and (min-width: 320px) {
     .button:hover {
-      background-color: rgba(183, 174, 179, 0.82);
+      background-color: rgba(121, 125, 126, 0.82);
       transition: background-color 400ms linear 0s; } }
 
 @media (min-width: 320px) {
@@ -341,7 +345,7 @@
     display: flex;
     height: 80px;
     background: linear-gradient(90deg, #F8F8F8 1.39%, white 100%);
-    border-top: 1px solid #D9FFF5; } }
+    border-top: 1px solid #B8FFEC; } }
 
 @media (min-width: 320px) {
   .block-name--text {
@@ -349,21 +353,21 @@
             margin-block-start: 0;
     -webkit-margin-after: 0;
             margin-block-end: 0;
-    color: #7E7E82;
+    color: #797d7e;
     align-self: center;
     margin-left: 20px;
     text-transform: uppercase; } }
 
 @media (min-width: 320px) {
   .link {
-    font-family: 'TT Lakes', serif;
+    font-family: 'TT Lakes';
     white-space: nowrap;
     color: black;
     text-decoration: none; } }
 
 @media (min-width: 320px) {
   .link:hover {
-    color: #7E7E82; } }
+    color: #797d7e; } }
 
 @media (min-width: 320px) {
   .title {
@@ -440,7 +444,7 @@
 
 @media (min-width: 320px) {
   .navigation__link--active {
-    color: #7E7E82; } }
+    color: #797d7e; } }
 
 @media (min-width: 320px) {
   .navigation__ul--type--vertical::before {
@@ -471,7 +475,7 @@
 @media (min-width: 320px) {
   .language__link--russian--active {
     margin-right: 7px;
-    color: #7E7E82; } }
+    color: #797d7e; } }
 
 @media (min-width: 320px) {
   .language__link--english {
@@ -490,7 +494,7 @@
     height: 72px;
     background-color: white;
     border-radius: 6px;
-    border: 1px solid #d7d5d5;
+    border: 1px solid #EAEAEA;
     margin: 16px 8px 0 16px; } }
 
 @media (min-width: 1440px) {
@@ -558,7 +562,7 @@
 
 @media (min-width: 320px) {
   .card__text--type--services-characteristic {
-    color: #7E7E82;
+    color: #797d7e;
     margin-top: 16px; } }
 
 @media (min-width: 768px) {
@@ -577,7 +581,7 @@
     align-items: center;
     width: 100%;
     background-color: #F8F8F8;
-    color: #7E7E82; } }
+    color: #797d7e; } }
 
 @media (min-width: 768px) {
   .card__text--services-description {
@@ -640,9 +644,7 @@
   .section__text {
     margin: 24px auto 0 16px;
     height: 145px;
-    overflow: hidden;
-    -webkit-mask-image: linear-gradient(to top, transparent 0%, transparent 2rem, black 2rem, black 100%), linear-gradient(to right, black 0%, black 28px, transparent 52px, transparent 100%);
-            mask-image: linear-gradient(to top, transparent 0%, transparent 2rem, black 2rem, black 100%), linear-gradient(to right, black 0%, black 28px, transparent 52px, transparent 100%); } }
+    overflow: hidden; } }
 
 @media (min-width: 768px) {
   .section__text {
@@ -698,7 +700,7 @@
     display: flex;
     height: 80px;
     background: linear-gradient(90deg, #F8F8F8 1.39%, white 100%);
-    border-top: 1px solid #D9FFF5; } }
+    border-top: 1px solid #B8FFEC; } }
 
 @media (min-width: 320px) {
   .block-name--text {
@@ -706,7 +708,7 @@
             margin-block-start: 0;
     -webkit-margin-after: 0;
             margin-block-end: 0;
-    color: #7E7E82;
+    color: #797d7e;
     align-self: center;
     margin-left: 20px;
     text-transform: uppercase; } }
@@ -742,9 +744,9 @@
     justify-content: space-between;
     align-items: center;
     width: auto;
-    color: #7E7E82;
+    color: #797d7e;
     background-color: #F8F8F8;
-    border-top: 1px solid #D9FFF5; } }
+    border-top: 1px solid #B8FFEC; } }
 
 @media (min-width: 768px) {
   .footer {
@@ -754,7 +756,7 @@
 @media (min-width: 320px) {
   .footer__text {
     align-items: center;
-    margin-left: 16px;
+    margin-left: 14px;
     font-size: 14px; } }
 
 @media (min-width: 320px) {
@@ -798,7 +800,7 @@
     height: 48px;
     border: 1px solid #EAEAEA;
     border-radius: 8px;
-    color: #B5B6BC;
+    color: #EAEAEA;
     padding-left: 16px;
     margin-bottom: 16px;
     margin-left: 6px; } }
@@ -813,7 +815,7 @@
     width: 288px;
     border: 1px solid #EAEAEA;
     border-radius: 8px;
-    color: #B5B6BC;
+    color: #EAEAEA;
     padding-left: 16px;
     padding-top: 12px;
     margin-left: 6px; } }
@@ -825,7 +827,7 @@
 
 @media (min-width: 320px) {
   .modal__agreement {
-    color: #7E7E82;
+    color: #797d7e;
     margin-left: 6px; } }
 
 @media (min-width: 1440px) {
