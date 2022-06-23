@@ -5,6 +5,7 @@
     background: linear-gradient(90deg, $grey 1.39%, $white 100%);
     border-top: 1px solid $turquoise;
   }
+
   &--text {
     @media (min-width: 320px) {
       margin-block-start: 0;

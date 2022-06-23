@@ -1,7 +1,6 @@
-
-  .link {
-    @media (min-width: 320px) {
-      font-family: 'TT Lakes';
+.link {
+  @media (min-width: 320px) {
+    font-family: 'TT Lakes';
     white-space: nowrap;
     color: $black;
     text-decoration: none;

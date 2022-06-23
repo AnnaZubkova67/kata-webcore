@@ -2,6 +2,7 @@
   @media (min-width: 320px) {
     margin: 0;
     background-color: $grey;
+    overflow: auto;
   }
   @media (min-width: 1440px) {
     display: flex;
@@ -32,6 +33,7 @@
     }
     @media (min-width: 1440px) {
       box-shadow: none;
+      overflow: visible;
     }
   }
 
@@ -122,13 +124,15 @@
     }
   }
 
-
   &__footer {
     @media (min-width: 320px) {
       width: 196px;
       height: 164px;
       display: flex;
       flex-wrap: wrap;
+      margin: auto 100px auto 24px;
+    }
+    @media (min-width: 768px) {
       margin: 268px 100px auto 24px;
     }
   }
@@ -183,6 +187,7 @@
     }
     @media (min-width: 768px) {
       height: auto;
+      padding: 5px;
     }
   }
 
@@ -255,6 +260,7 @@
       height: auto;
       display: flex;
       flex-direction: column;
+      padding: 5px;
     }
 
   }
@@ -285,6 +291,7 @@
     }
 
   }
+
   &__button-closed--type--modal {
     @media (min-width: 320px) {
       margin: 20px auto 2px 8px;
@@ -300,11 +307,13 @@
       display: flex;
     }
   }
- &__button-profile--type--menu-fixed{
-   @media (min-width: 320px) {
-     display: flex;
-   }
- }
+
+  &__button-profile--type--menu-fixed {
+    @media (min-width: 320px) {
+      display: flex;
+    }
+  }
+
   &__header--type--menu {
     @media (min-width: 1440px) {
       background-color: $white;

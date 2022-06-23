@@ -1,5 +1,5 @@
 .title {
-    @media (min-width: 320px) {
+  @media (min-width: 320px) {
     height: 40px;
     margin-block-start: 0;
     margin-block-end: 0;
@@ -12,16 +12,19 @@
     position: relative;
     top: 10px;
   }
+
   &--type--name-modal {
     font-size: 24px;
     margin-bottom: 24px;
   }
+
   &--type--name-modal {
     position: relative;
 
   }
 }
-.title{
+
+.title {
   @media (min-width: 1440px) {
     &--type--content {
       position: absolute;

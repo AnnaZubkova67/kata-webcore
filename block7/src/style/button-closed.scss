@@ -1,13 +1,14 @@
 .button-closed {
-    @media (min-width: 320px) {
+  @media (min-width: 320px) {
     background-image: url("../img/icon-closed.svg");
     align-self: flex-start;
     margin: 24px 16px 0 16px;
-      @media (min-width: 1440px) {
-        display: none;
-      }
+    @media (min-width: 1440px) {
+      display: none;
+    }
   }
-  &--type--modal{
+
+  &--type--modal {
     @media (min-width: 320px) {
       display: flex;
       z-index: 8;
