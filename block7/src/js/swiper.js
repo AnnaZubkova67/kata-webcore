@@ -1,10 +1,9 @@
-import Swiper from 'swiper';
 export const sliderBrands = document.querySelector('.swiper-brands');
 export const sliderTypes = document.querySelector('.swiper-types');
 export const sliderServices = document.querySelector('.swiper-services');
 if (window.innerWidth < 768) {
     function swiper(numberSlider, classPagination) {
-        let mySwiper = new Swiper(numberSlider, {
+        let newSwiper = new Swiper(numberSlider, {
             breakpoints: {
                 320: {
                     slidesPerView: 1.3,

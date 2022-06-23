@@ -1,5 +1,4 @@
-
-  .button-order {
+.button-order {
     @media (min-width: 320px) {
       display: flex;
       justify-content: space-evenly;
@@ -7,7 +6,7 @@
       text-transform: uppercase;
       font-weight: bold;
       font-size: 12px;
-      color: white;
+      color: $white;
       width: 119px;
       height: 32px;
       margin-left: 15px;

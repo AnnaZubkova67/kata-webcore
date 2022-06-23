@@ -48,7 +48,7 @@
 
   &__link--active {
     @media (min-width: 320px) {
-      color: #7E7E82;
+      color: $dark-grey;
     }
   }
 
@@ -65,10 +65,10 @@
 
   &__link--active--border {
     @media (min-width: 320px) {
-      border: 2px solid #B8FFEC;
+      border: 2px solid $turquoise;
       border-radius: 7px;
       padding: 10px;
-      background-color: white;
+      background-color: $white;
     }
 
   }

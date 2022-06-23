@@ -10,9 +10,9 @@
       align-items: flex-end;
       width: 224px;
       height: 72px;
-      background-color: white;
+      background-color: $white;
       border-radius: 6px;
-      border: 1px solid #d7d5d5;
+      border: 1px solid $light-gray;
       margin: 16px 8px 0 16px;
     }
     @media (min-width: 1440px) {
@@ -30,8 +30,8 @@
   &__button-onwards {
     @media (min-width: 320px) {
       margin: auto 16px 16px auto;
-      background-color: white;
-      border: 2px solid #FF3E79;
+      background-color: $white;
+      border: 2px solid $pink;
       background-image: url("../img/arrow.svg");
     }
   }
@@ -63,7 +63,7 @@
       border-top: none;
       border-left: none;
       border-right: none;
-      border-bottom: 1px solid #EAEAEA;
+      border-bottom: 1px solid $light-gray;
       flex-direction: row;
       align-items: center;
       justify-content: space-between;
@@ -92,7 +92,7 @@
 
   &__text--type--services-characteristic {
     @media (min-width: 320px) {
-      color: #7E7E82;
+      color: $dark-grey;
       margin-top: 16px;
     }
     @media (min-width: 768px) {
@@ -110,8 +110,8 @@
       flex-direction: row;
       align-items: center;
       width: 100%;
-      background-color: #F8F8F8;
-      color: #7E7E82;
+      background-color: $grey;
+      color: $dark-grey;
     }
   }
 
