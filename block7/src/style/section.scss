@@ -10,15 +10,16 @@
   &__text {
     @media (min-width: 320px) {
       margin: 24px auto 0 16px;
-      height: 145px;
+      height: 160px;
       overflow: hidden;
+      mask-image: linear-gradient(to top, transparent 5%, transparent 1px, rgb(0, 0, 0) 2rem, rgb(0, 0, 0) 100%);
     }
     @media (min-width: 768px) {
-      height: 210px;
+      height: 220px;
     }
     @media (min-width: 1440px) {
       overflow: hidden;
-      height: 220px;
+      height: 240px;
       margin: 0 48px 16px 16px;
     }
   }
