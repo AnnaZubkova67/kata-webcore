@@ -23,7 +23,7 @@
   .body {
     margin: 0;
     background-color: #F8F8F8;
-    overflow: auto; } }
+    overflow-x: auto; } }
 
 @media (min-width: 1440px) {
   .body {
