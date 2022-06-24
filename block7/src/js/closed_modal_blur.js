@@ -4,6 +4,7 @@ export let modalCall = document.querySelector('.modal--type--call');
 export let modalFeedback = document.querySelector('.modal--type--feedback');
 export let modalMenu = document.querySelector('.modal--type--menu');
 export let bodyContent = document.querySelector('.body')
+
 export function closedModalBlur(classModal) {
   for (let i = 0; i < modal.length; i++) {
     modalContent[i].addEventListener('click', function (e) {
@@ -16,6 +17,7 @@ export function closedModalBlur(classModal) {
     });
   }
 }
+
 closedModalBlur(modalCall);
 closedModalBlur(modalFeedback);
 closedModalBlur(modalMenu);

@@ -5,6 +5,7 @@ export let modalMenu = document.querySelector('.modal--type--menu');
 export let buttonChat = document.querySelectorAll('.body__button-chat');
 export let buttonMenu = document.querySelectorAll('.body__button-menu');
 export let bodyContent = document.querySelector('.body')
+
 export function openModalKeydown(classModal, buttonModal) {
   for (let i = 0; i < buttonModal.length; i++) {
     buttonModal[i].addEventListener('keydown', function (evt) {
@@ -17,6 +18,7 @@ export function openModalKeydown(classModal, buttonModal) {
     });
   }
 }
+
 openModalKeydown(modalCall, buttonCall);
 openModalKeydown(modalFeedback, buttonChat);
 openModalKeydown(modalMenu, buttonMenu);
