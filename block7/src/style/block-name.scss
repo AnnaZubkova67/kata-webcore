@@ -5,6 +5,15 @@
     background: linear-gradient(90deg, $grey 1.39%, $white 100%);
     border-top: 1px solid $turquoise;
   }
+  @media (min-width: 768px) {
+    height: 56px;
+  }
+
+  &--price {
+    @media (min-width: 320px) {
+      height: 56px;
+    }
+  }
 
   &--text {
     @media (min-width: 320px) {

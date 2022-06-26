@@ -36,14 +36,15 @@
 
   &__input {
     @media (min-width: 320px) {
-      width: 288px;
+      width: 272px;
       height: 48px;
       border: 1px solid $light-gray;
       border-radius: 8px;
-      color: $light-gray;
+      color: $black;
       padding-left: 16px;
       margin-bottom: 16px;
-      margin-left: 6px;
+      margin-left: 16px;
+
     }
     @media (min-width: 1440px) {
       width: 376px;
@@ -53,13 +54,13 @@
 
   &__textarea {
     @media (min-width: 320px) {
-      width: 288px;
+      width: 272px;
       border: 1px solid $light-gray;
       border-radius: 8px;
       color: $light-gray;
       padding-left: 16px;
       padding-top: 12px;
-      margin-left: 6px;
+      margin-left: 16px;
     }
     @media (min-width: 1440px) {
       width: 376px;
@@ -71,8 +72,7 @@
     @media (min-width: 320px) {
       color: $dark-grey;
       margin-left: 6px;
-    }
-    @media (min-width: 1440px) {
+      font-size: 14px;
       margin-left: 16px;
     }
   }
