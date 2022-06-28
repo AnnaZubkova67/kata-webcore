@@ -386,7 +386,8 @@ template {
   .body__content {
     width: auto;
     margin-left: 320px;
-    background-color: #F8F8F8; } }
+    background-color: #F8F8F8;
+    overflow-y: hidden; } }
 
 @media (min-width: 320px) {
   .header {
@@ -926,7 +927,8 @@ template {
   .link-onwards--type--show {
     display: block;
     margin-top: 20px;
-    margin-left: 32px; } }
+    margin-left: 32px;
+    margin-bottom: 15px; } }
 
 @media (min-width: 320px) {
   .link-onwards--type--text {
@@ -1066,11 +1068,15 @@ template {
 
 @media (min-width: 768px) {
   .brands {
-    height: 300px; } }
+    height: auto; } }
 
 @media (min-width: 320px) {
   .types {
     height: 320px; } }
+
+@media (min-width: 320px) {
+  .types {
+    height: auto; } }
 
 @media (min-width: 320px) {
   .footer {
