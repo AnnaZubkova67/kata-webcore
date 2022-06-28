@@ -12,14 +12,14 @@
   &--type--search {
     @media (min-width: 320px) {
       margin: 23px 24px auto auto;
-      background-image: url("../img/icon-search.svg");
+      background-image: url("src/img/icon-search.svg");
       background-repeat: no-repeat;
       background-position: center;
     }
   }
   &--type--repair {
     @media (min-width: 320px) {
-      background-image: url("../img/repair.svg");
+      background-image: url("src/img/repair.svg");
       margin: 24px 16px 0 0;
     }
     @media (min-width: 1440px) {
@@ -29,7 +29,7 @@
   &--type--repair::before {
     @media (min-width: 320px) {
       position: relative;
-      content: url("../img/divider.svg");
+      content: url("src/img/divider.svg");
       width: 2px;
       height: 32px;
       right: 35px;
@@ -42,7 +42,7 @@
 
   &--type--check-status {
     @media (min-width: 320px) {
-      background-image: url("../img/checkstatus.svg");
+      background-image: url("src/img/checkstatus.svg");
       margin: 24px 16px 0 0;
     }
     @media (min-width: 1440px) {
@@ -52,7 +52,7 @@
 
   &--type--menu {
       @media (min-width: 320px) {
-        background-image: url("../img/burger.svg");
+        background-image: url("src/img/burger.svg");
         align-self: flex-start;
         margin: 24px 16px 0 16px;
       }
@@ -63,7 +63,7 @@
     &--type--call {
       @media (min-width: 320px) {
         display: none;
-        background-image: url("../img/icon-call.svg");
+        background-image: url("src/img/icon-call.svg");
         background-repeat: no-repeat;
         background-position: center;
         margin: 24px 16px 0 0;
@@ -79,7 +79,7 @@
     &--type--chat {
       @media (min-width: 320px) {
         display: none;
-        background-image: url("../img/icon-chat.svg");
+        background-image: url("src/img/icon-chat.svg");
         background-repeat: no-repeat;
         background-position: center;
         margin: 24px 16px 0 0;
@@ -95,7 +95,7 @@
     &--type--profile {
       @media (min-width: 320px) {
         display: none;
-        background-image: url("../img/icon-profile.svg");
+        background-image: url("src/img/icon-profile.svg");
         background-repeat: no-repeat;
         background-position: center;
         margin: 24px 34px 0 0;

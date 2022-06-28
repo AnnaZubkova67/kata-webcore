@@ -5,7 +5,7 @@
 
   &::before {
     @media (min-width: 320px) {
-      content: url("../img/icon.svg");
+      content: url("src/img/icon.svg");
       margin-right: 16px;
       margin-left: 0;
     }

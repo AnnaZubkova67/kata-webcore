@@ -1,0 +1,67 @@
+@import "block7/node_modules/normalize.css/normalize.css";
+$white: white;
+$grey: #F8F8F8;
+$pink: #FF3E79;
+$black: black;
+$turquoise: #B8FFEC;
+$dark-grey: #797d7e;
+$light-gray: #EAEAEA;
+@font-face {
+  font-family: 'TT Lakes';
+  src: url('src/fonts/TTLakes-Bold.eot');
+  src: local('TT Lakes Bold'), local('TTLakes-Bold'),
+  url('src/fonts/TTLakes-Bold.eot?#iefix') format('embedded-opentype'),
+  url('src/fonts/TTLakes-Bold.woff') format('woff'),
+  url('src/fonts/TTLakes-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TT Lakes';
+  src: url('src/fonts/TTLakes-Medium.eot');
+  src: local('TT Lakes Medium'), local('TTLakes-Medium'),
+  url('src/fonts/TTLakes-Medium.eot?#iefix') format('embedded-opentype'),
+  url('src/fonts/TTLakes-Medium.woff') format('woff'),
+  url('src/fonts/TTLakes-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TT Lakes';
+  src: url('src/fonts/TTLakes-Regular.eot');
+  src: local('TT Lakes Regular'), local('TTLakes-Regular'),
+  url('src/fonts/TTLakes-Regular.eot?#iefix') format('embedded-opentype'),
+  url('src/fonts/TTLakes-Regular.woff') format('woff'),
+  url('src/fonts/TTLakes-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import "src/scss/body";
+@import "src/scss/header";
+@import "src/scss/button-closed";
+@import "src/scss/button";
+@import "src/scss/block-name";
+@import "src/scss/link";
+@import "src/scss/title";
+@import "src/scss/navigation";
+@import "src/scss/contacts";
+@import "src/scss/language";
+@import "src/scss/ul";
+@import "src/scss/card";
+@import "src/scss/link-onwards";
+@import "src/scss/section";
+@import "src/scss/swiper-pagination";
+@import "src/scss/text";
+@import "src/scss/block-name";
+@import "src/scss/button-order";
+@import "src/scss/brands";
+@import "src/scss/types";
+@import "src/scss/services";
+@import "src/scss/footer";
+@import "src/scss/modal";
+@import "src/scss/open";
+@import "src/scss/hide";
+@import "src/scss/open-modal";
+@import "src/scss/closed";
+
