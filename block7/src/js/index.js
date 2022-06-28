@@ -1,25 +1,6 @@
 import '../scss/style.scss';
-import buttonCall from "../js/open_modal"
-import modalCall from "../js/open_modal"
-import modalFeetback from "../js/open_modal"
-import modalMenu from "../js/open_modal"
-import buttonChat from "../js/open_modal"
-import buttonMenu from "../js/open_modal"
-import openModal from "../js/open_modal"
-import bodyContent from "../js/open_modal"
-import linkOnwards from "../js/open_content"
-import content from "../js/open_content"
-import closed from "../js/closed_modal"
-import closedModal from "../js/closed_modal"
-import modal from "../js/closed_modal_blur"
-import modalContent from "../js/closed_modal_blur"
-import closedModalBlur from "../js/closed_modal_blur"
-import openModalKeydown from "../js/open_modal_keydown"
-import closedModalKeydown from "../js/closed_modal-key"
-import slider from "../js/swiper"
-import sliderBrands from "../js/swiper"
-import sliderTypes from "../js/swiper"
-import swiper from "../js/swiper"
-import newSwiper from "../js/swiper"
-import sliderServices from "../js/swiper"
+import {buttonCall , modalCall, modalFeedback, modalMenu, buttonChat, buttonMenu , bodyContent, openModal} from "../js/open_modal";
+import {linkOnwards,content, openContent} from "../js/open_content";
+import {modal, modalContent,closed, closedModal} from "../js/closed_modal";
+import {slider, sliderBrands, sliderTypes, sliderServices, newSwiper, swiper} from "../js/swiper";
 

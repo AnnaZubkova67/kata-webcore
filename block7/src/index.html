@@ -9,53 +9,17 @@
   <title><%= htmlWebpackPlugin.options.title %></title>
 </head>
 <body class="body">
-<div class="modal modal--type--menu">
-  <div class="body__content-menu content-modal">
-    <header class="body__header body__header--type--menu">
-      <a href="#" class="button-closed button"></a>
-      <a href="#" class="body__logo-menu"><img src="img/Group.svg" alt=''></a>
-      <a href="#" class="body__button-search button">
-      </a>
-    </header>
-    <nav class="navigation">
-      <ul class="navigation__ul navigation__ul--type--vertical">
-        <li><a href="#" class="navigation__link link navigation__link--active">Ремонт техники</a></li>
-        <li><a href="#" class="navigation__link link">Услуги и сервисы</a></li>
-        <li><a href="#" class="navigation__link link">Корпоративым клиентам</a></li>
-        <li><a href="#" class="navigation__link link">Продавцам техники</a></li>
-        <li><a href="#" class="navigation__link link">Партнерам</a></li>
-        <li><a href="#" class="navigation__link link">Производителям</a></li>
-        <li><a href="#" class="navigation__link link">Наши сервисные центры</a></li>
-        <li><a href="#" class="navigation__link link">Контакты</a></li>
-      </ul>
-    </nav>
-    <footer class="body__footer">
-      <a href="#" class="button  body__button-call  body__button-call--type--menu-fixed"></a>
-      <a href="#" class=" button body__button-chat body__button-call--type--menu-fixed"></a>
-      <a href="#" class="body__button-profile button body__button-profile--type--menu-fixed"></a>
-      <div class="contacts">
-        <a href="mailto:mail@cps.com" class="contacts__mail link">mail@cps.com</a>
-        <a href='tel:88008908900' class="contacts__tel link ">8 800 890 8900</a>
-      </div>
-      <div class="language">
-        <a href="#" class="language__link link language__link--russian--active">RU</a>
-        <a href="#" class="language__link link language__link--english">EN</a>
-        <a href="#" class="language__link link language__link--chinese">CH</a>
-      </div>
-    </footer>
-  </div>
-</div>
 <div class="body__content">
-  <header class="body__header">
-    <a href="#" class="body__button-menu button"></a>
-    <a href="#" class="body__logo"><img src="img/Group.svg" alt=''></a>
-    <a href="#" class="body__button-call button"></a>
-    <a href="#" class="body__button-chat button"></a>
-    <a href="#" class="body__button-profile button"></a>
-    <a href="#" class="body__link-application link">Оставить заявку</a>
-    <a href="#" class="body__button-repair button"></a>
-    <a href="#" class="body__link-status link">Статус ремонта</a>
-    <a href="#" class="body__button-check-status button"></a>
+  <header class="header">
+    <button class="button button--type--menu"></button>
+    <a href="#" class="header__logo"><img src="img/Group.svg" alt=''></a>
+    <button class="button button--type--call"></button>
+    <button class="button button--type--chat"></button>
+    <button class="button button--type--profile"></button>
+    <a href="#" class="header__link-application link">Оставить заявку</a>
+    <button class="button button--type--repair"></button>
+    <a href="#" class="header__link-status link">Статус ремонта</a>
+    <button class="button button--type--check-status"></button>
   </header>
   <h1 class="title text title--type--content">Услуги и сервисы</h1>
   <nav class="navigation">
@@ -86,14 +50,14 @@
       </div>
       <a href="#" class="link-onwards link link-onwards--type--show link-onwards--type--text">Читать далее</a>
     </div>
-    <img src="img/Picture Copy.jpg" alt="logo" class="section__img">
+    <img class="section__img" src="img/Picture Copy.jpg" alt="logo">
   </section>
-  <div class="body__content-brands">
+  <div class="brands">
     <div class="block-name">
       <p class="block-name--text text">Ремонт техники различных брендов</p>
     </div>
     <div class="swiper-brands swiper">
-      <ul class="body__ul swiper-wrapper content">
+      <ul class="ul swiper-wrapper content">
         <li class="card swiper-slide">
           <div class="card__content">
             <img class="card__image" src="img/lenovo.svg" alt=''>
@@ -165,12 +129,12 @@
     <div class="swiper-pagination pag-1"></div>
     <a href="#" class="link-onwards link link-onwards--type--show ">Показать все</a>
   </div>
-  <div class="body__content-types">
+  <div class="types">
     <div class="block-name">
       <p class="block-name--text text">Ремонт техники различных брендов</p>
     </div>
     <div class="swiper-types swiper">
-      <ul class="body__ul swiper-wrapper content">
+      <ul class="ul swiper-wrapper content">
         <li class="card swiper-slide">
           <div class="card__content card__content--type--types-device">
             <p class="card__text text">Ремонт ноутбуков</p>
@@ -212,12 +176,12 @@
     <div class="swiper-pagination pag-2"></div>
     <a href="#" class="link-onwards link link-onwards--type--show ">Показать все</a>
   </div>
-  <div class="body__content-services">
+  <div class="services">
     <div class="block-name block-name--price">
       <p class="block-name--text text">Цены на услуги</p>
     </div>
     <div class="swiper-services swiper">
-      <ul class="body__ul swiper-wrapper body__ul--type--services">
+      <ul class="ul swiper-wrapper ul--type--services">
         <li class="card card--type--table">
           <div class="card__content card__content--type--services card--services-characteristic">
             <p class="card__text text card__text--services card__text--services-description">Ремонтные услуги</p>
@@ -232,7 +196,7 @@
             <p class="card__text text card__text--services card__text--type--services-characteristic">Цена</p>
             <p class="card__text text card__text--services card__text--services-price">Бесплатно</p>
             <p class="card__text text card__text--services card__text--type--services-characteristic">Срок</p>
-            <p class="card__text text card__text--services card__text--type--services-term">30-120 мин
+            <p class="card__text text card__text--services card__text--services-term">30-120 мин
               <a class="button link button-order" href="#">Заказать<button class="button button-order__button-onward"></button></a>
             </p>
           </div>
@@ -244,7 +208,7 @@
             <p class="card__text text card__text--services card__text--type--services-characteristic">Цена</p>
             <p class="card__text text card__text--services card__text--services-price">1000 ₽</p>
             <p class="card__text text card__text--services card__text--type--services-characteristic">Срок</p>
-            <p class="card__text text card__text--services  card__text--type--services-term">30-120 мин
+            <p class="card__text text card__text--services  card__text--services-term">30-120 мин
               <a class="button link button-order" href="#">Заказать<button class="button button-order__button-onward"></button></a>
             </p>
           </div>
@@ -256,7 +220,7 @@
             <p class="card__text text card__text--services card__text--type--services-characteristic">Цена</p>
             <p class="card__text text card__text--services card__text--services-price">1000 ₽</p>
             <p class="card__text text card__text--services card__text--type--services-characteristic">Срок</p>
-            <p class="card__text text card__text--services card__text--type--services-term">30-120 мин
+            <p class="card__text text card__text--services card__text--services-term">30-120 мин
               <a class="button link button-order" href="#">Заказать<button class="button button-order__button-onward"></button></a>
             </p>
           </div>
@@ -268,7 +232,7 @@
             <p class="card__text text card__text--services card__text--type--services-characteristic">Цена</p>
             <p class="card__text text card__text--services card__text--services-price">1000 ₽</p>
             <p class="card__text text card__text--services card__text--type--services-characteristic">Срок</p>
-            <p class="card__text text card__text--services card__text--type--services-term">30-120 мин
+            <p class="card__text text card__text--services card__text--services-term">30-120 мин
               <a class="button link button-order" href="#">Заказать<button class="button button-order__button-onward"></button></a>
             </p>
           </div>
@@ -280,7 +244,7 @@
             <p class="card__text text card__text--services card__text--type--services-characteristic">Цена</p>
             <p class="card__text text card__text--services card__text--services-price">1000 ₽</p>
             <p class="card__text text card__text--services card__text--type--services-characteristic">Срок</p>
-            <p class="card__text text card__text--services card__text--type--services-term">30-120 мин
+            <p class="card__text text card__text--services card__text--services-term">30-120 мин
               <a class="button link button-order" href="#">Заказать
                 <button class="button button-order__button-onward"></button>
               </a>
@@ -291,51 +255,80 @@
     </div>
     <div class="swiper-pagination pag-3"></div>
   </div>
-  <p class="body__price-explanation text">Все цены указаны с учетом НДС. Стоимость ремонта указана на единичную услугу.
+  <p class="text text__price-explanation">Все цены указаны с учетом НДС. Стоимость ремонта указана на единичную услугу.
     Для получения коммерческого предложения на постоянное обслуживание, оставьте заявку.</p>
-  <a class="body__offer link">Получить коммерческое предложение</a>
+  <a class="link link__offer">Получить коммерческое предложение</a>
   <footer class="footer">
     <p class="footer__text text">© 2019 CPS Разработано командой Apesong </p>
-    <p class="footer__text text">Политика конфиденциальности</p>
+    <a class="footer__text text link">Политика конфиденциальности</a>
     <p class="footer__text text">Информация, размещенная на данной странице, не является публичной офертой</p>
   </footer>
 </div>
+<div class="modal modal--type--menu">
+  <div class="modal__content modal__content--type--menu content-modal">
+    <header class="header header--type--menu">
+      <button class="button-closed button"></button>
+      <a href="#" class="header__logo header__logo--type--menu"><img src="img/Group.svg" alt=''></a>
+      <button class="button button--type--search"></button>
+    </header>
+    <nav class="navigation">
+      <ul class="navigation__ul navigation__ul--type--vertical">
+        <li><a href="#" class="navigation__link link navigation__link--active">Ремонт техники</a></li>
+        <li><a href="#" class="navigation__link link">Услуги и сервисы</a></li>
+        <li><a href="#" class="navigation__link link">Корпоративым клиентам</a></li>
+        <li><a href="#" class="navigation__link link">Продавцам техники</a></li>
+        <li><a href="#" class="navigation__link link">Партнерам</a></li>
+        <li><a href="#" class="navigation__link link">Производителям</a></li>
+        <li><a href="#" class="navigation__link link">Наши сервисные центры</a></li>
+        <li><a href="#" class="navigation__link link">Контакты</a></li>
+      </ul>
+    </nav>
+    <footer class="modal__footer">
+      <button class="button button--type--call button--type-in-menu"></button>
+      <button class="button button--type--chat button--type-in-menu"></button>
+      <button class="button button--type--profile button--type-in-menu"></button>
+      <div class="contacts">
+        <a href="mailto:mail@cps.com" class="contacts__mail link">mail@cps.com</a>
+        <a href='tel:88008908900' class="contacts__tel link ">8 800 890 8900</a>
+      </div>
+      <div class="language">
+        <a href="#" class="language__link link language__link--russian--active">RU</a>
+        <a href="#" class="language__link link language__link--english">EN</a>
+        <a href="#" class="language__link link language__link--chinese">CH</a>
+      </div>
+    </footer>
+  </div>
+</div>
 <div class="modal modal--type--call">
   <div class="modal__content content-modal">
-    <a class="button-closed button button-closed--type--modal" href="#"></a>
+    <button class="button-closed button button-closed--type--modal"></button>
     <h1 class="title text title--type--name-modal">Заказать звонок</h1>
-    <label>
+    <form>
       <input class="modal__input text" type="tel" name="tel" placeholder="Телефон" autofocus>
-    </label>
+    </form>
     <p class="modal__agreement text">Нажимая “отправить”, вы даете согласие на
       <a class="modal__personal-data link" href="#">обработку персональных данных</a>
       и соглашаетесь с нашей
       <a class="modal__privacy-policy link" href="#">политикой конфиденциальности</a></p>
-    <input class="button link button-order modal__button-submit" type="submit" value="Отправить">
+    <button class="button link button-order modal__button-submit">Отправить</button>
   </div>
 </div>
 <div class="modal modal--type--feedback">
   <div class="modal__content content-modal">
-    <a class="button-closed button button-closed--type--modal" href="#"></a>
+    <button class="button-closed button button-closed--type--modal" href="#"></button>
     <h1 class="title text title--type--name-modal">Обратная связь</h1>
-    <label>
+    <form>
       <input class="modal__input text" type="text" name="username" placeholder="Имя" autofocus>
-    </label>
-    <label>
       <input class="modal__input text" type="tel" name="tel" placeholder="Телефон">
-    </label>
-    <label>
       <input class="modal__input text" type="email" name="email" placeholder="Электронная почта">
-    </label>
-    <label>
       <textarea class="modal__textarea text" name="message" rows="8" placeholder="Сообщение"></textarea>
-    </label>
+    </form>
     <p class="modal__agreement text">Нажимая “отправить”, вы даете согласие на
       <a class="modal__personal-data link" href="#">обработку персональных данных</a>
       и соглашаетесь с нашей <a class="modal__privacy-policy link" href="#">политикой конфиденциальности</a></p>
-    <input class="button link button-order modal__button-submit" type="submit" value="Отправить">
+    <button class="button button-order modal__button-submit text">Отправить</button>
   </div>
-  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 </div>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 </body>
 </html>

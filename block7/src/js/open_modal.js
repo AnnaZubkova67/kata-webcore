@@ -1,24 +1,31 @@
-export let buttonCall = document.querySelectorAll('.body__button-call');
-export let modalCall = document.querySelector('.modal--type--call');
-export let modalFeedback = document.querySelector('.modal--type--feedback');
-export let modalMenu = document.querySelector('.modal--type--menu');
-export let buttonChat = document.querySelectorAll('.body__button-chat');
-export let buttonMenu = document.querySelectorAll('.body__button-menu');
-export let bodyContent = document.querySelector('.body')
+let buttonCall = document.querySelectorAll('.button--type--call');
+let modalCall = document.querySelector('.modal--type--call');
+let modalFeedback = document.querySelector('.modal--type--feedback');
+let modalMenu = document.querySelector('.modal--type--menu');
+let buttonChat = document.querySelectorAll('.button--type--chat');
+let buttonMenu = document.querySelectorAll('.button--type--menu');
+let bodyContent = document.querySelector('.body')
 
-export function openModal(classModal, buttonModal) {
+function openModal(classModal, buttonModal, method) {
   for (let i = 0; i < buttonModal.length; i++) {
-    buttonModal[i].addEventListener('click', function (evt) {
-      if (classModal.classList.contains('open-modal')) {
-        classModal.classList.remove('open-modal');
+    buttonModal[i].addEventListener(method, function (evt) {
+      if ((method === 'keydown' && evt.keyCode === 13) || method === 'click') {
+        if (modalMenu.classList.contains('open-modal')) {
+          modalMenu.classList.remove('open-modal');
+        }
+        evt.preventDefault();
+        classModal.classList.add('open-modal');
+        bodyContent.style.overflow = 'hidden';
       }
-      evt.preventDefault();
-      classModal.classList.add('open-modal');
-      bodyContent.style.overflow = 'hidden';
     });
   }
 }
 
-openModal(modalCall, buttonCall);
-openModal(modalFeedback, buttonChat);
-openModal(modalMenu, buttonMenu);
+openModal(modalCall, buttonCall, 'click');
+openModal(modalFeedback, buttonChat, 'click');
+openModal(modalMenu, buttonMenu, 'click');
+openModal(modalCall, buttonCall, 'keydown');
+openModal(modalFeedback, buttonChat, 'keydown');
+openModal(modalMenu, buttonMenu, 'keydown');
+
+export {buttonCall , modalCall, modalFeedback, modalMenu, buttonChat, buttonMenu , bodyContent, openModal}

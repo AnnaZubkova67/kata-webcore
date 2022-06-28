@@ -101,4 +101,27 @@
     }
 
   }
+  &__content--type--menu{
+    @media (min-width: 320px) {
+      right: auto;
+      left: 0;
+      overflow: scroll;
+      width: 320px;
+    }
+    @media (min-width: 1440px) {
+      box-shadow: none;
+    }
+  }
+  &__footer {
+    @media (min-width: 320px) {
+      width: 196px;
+      height: 164px;
+      display: flex;
+      flex-wrap: wrap;
+      margin: auto 100px auto 24px;
+    }
+    @media (min-width: 768px) {
+      margin: 268px 100px auto 24px;
+    }
+  }
 }

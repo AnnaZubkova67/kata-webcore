@@ -1,10 +1,10 @@
-export const slider = document.querySelectorAll('.swiper');
-export const sliderBrands = document.querySelector('.swiper-brands');
-export const sliderTypes = document.querySelector('.swiper-types');
-export const sliderServices = document.querySelector('.swiper-services');
-export let newSwiper;
+const slider = document.querySelectorAll('.swiper');
+const sliderBrands = document.querySelector('.swiper-brands');
+const sliderTypes = document.querySelector('.swiper-types');
+const sliderServices = document.querySelector('.swiper-services');
+let newSwiper;
 
-export function swiper(numberSlider, classPagination) {
+function swiper(numberSlider, classPagination) {
   if (window.innerWidth < 768) {
     newSwiper = new Swiper(numberSlider, {
       breakpoints: {
@@ -41,4 +41,6 @@ window.addEventListener('resize', () => {
   swiper(sliderTypes, '.pag-2');
   swiper(sliderServices, '.pag-3');
 })
+
+export {slider, sliderBrands, sliderTypes, sliderServices, newSwiper, swiper}
 

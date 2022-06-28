@@ -1,0 +1,35 @@
+.link {
+  @media (min-width: 320px) {
+    font-family: 'TT Lakes', 'Arial', sans-serif;
+    white-space: nowrap;
+    color: $black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  &:hover {
+    @media (min-width: 320px) {
+      color: $dark-grey;
+    }
+  }
+  &__offer {
+    @media (min-width: 320px) {
+      display: flex;
+      white-space: normal;
+      margin-left: 14px;
+      margin-top: 16px;
+      margin-bottom: 10px;
+      font-weight: 500;
+      font-size: 14px;
+    }
+  }
+
+  &__offer::after {
+    @media (min-width: 320px) {
+      content: url("../img/further.svg");
+      margin-left: 5px;
+      height: 12px;
+      align-self: center;
+    }
+  }
+}

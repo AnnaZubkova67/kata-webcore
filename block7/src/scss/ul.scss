@@ -1,0 +1,24 @@
+.ul {
+  @media (min-width: 320px) {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    list-style-type: none;
+    padding-inline-start: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+  @media (min-width: 768px) {
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    height: 190px;
+  }
+
+  &--type--services {
+    @media (min-width: 768px) {
+      height: auto;
+      width: auto;
+      margin-right: 16px;
+    }
+  }
+}

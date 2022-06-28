@@ -1,0 +1,14 @@
+.text {
+  @media (min-width: 320px) {
+    font-family: 'TT Lakes', 'Arial', sans-serif;
+  }
+  &__price-explanation {
+    @media (min-width: 320px) {
+      margin: 44px 16px auto 14px;
+      font-size: 14px;
+    }
+    @media (min-width: 768px) {
+      margin-top: 24px;
+    }
+  }
+}

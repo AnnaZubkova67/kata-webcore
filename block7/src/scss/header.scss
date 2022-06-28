@@ -1,0 +1,63 @@
+.header {
+  @media (min-width: 320px) {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 88px;
+    background-color: $white;
+  }
+  @media (min-width: 1440px) {
+    background-color: $grey;
+  }
+  &__logo {
+    @media (min-width: 320px) {
+      margin: 18px auto 0 0;
+    }
+    @media (min-width: 768px) {
+      margin: 18px auto 0 0;
+    }
+    @media (min-width: 1440px) {
+      display: none;
+    }
+  }
+  &__logo--type--menu {
+    @media (min-width: 320px) {
+      margin: 18px auto 0 0;
+    }
+    @media (min-width: 1440px) {
+      display: block;
+      margin-top: 30px;
+      margin-left: 22px;
+    }
+  }
+  &__link-application {
+    @media (min-width: 320px) {
+      display: none;
+    }
+    @media (min-width: 1440px) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 55px 8px 0 auto;
+      font-weight: 500;
+    }
+  }
+
+  &__link-status {
+    @media (min-width: 320px) {
+      display: none;
+    }
+    @media (min-width: 1440px) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 55px 8px 0 10px;
+      font-weight: 500;
+    }
+  }
+  &--type--menu{
+    @media (min-width: 1440px) {
+      background-color: $white;
+    }
+  }
+}

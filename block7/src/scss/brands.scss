@@ -1,0 +1,9 @@
+.brands {
+  @media (min-width: 320px) {
+    height: 220px;
+  }
+  @media (min-width: 768px) {
+    height: auto;
+  }
+
+}

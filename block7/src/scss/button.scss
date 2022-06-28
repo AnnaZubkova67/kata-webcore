@@ -1,0 +1,123 @@
+.button {
+  @media (min-width: 320px) {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: $pink;
+    border: 0 solid $pink;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-shrink: 0;
+  }
+  &--type--search {
+    @media (min-width: 320px) {
+      margin: 23px 24px auto auto;
+      background-image: url("../img/icon-search.svg");
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+  &--type--repair {
+    @media (min-width: 320px) {
+      background-image: url("../img/repair.svg");
+      margin: 24px 16px 0 0;
+    }
+    @media (min-width: 1440px) {
+      margin: 55px 16px 0 0;
+    }
+  }
+  &--type--repair::before {
+    @media (min-width: 320px) {
+      position: relative;
+      content: url("../img/divider.svg");
+      width: 2px;
+      height: 32px;
+      right: 35px;
+      top: 3px;
+    }
+    @media (min-width: 1440px) {
+      display: none;
+    }
+  }
+
+  &--type--check-status {
+    @media (min-width: 320px) {
+      background-image: url("../img/checkstatus.svg");
+      margin: 24px 16px 0 0;
+    }
+    @media (min-width: 1440px) {
+      margin: 55px 16px 0 0;
+    }
+  }
+
+  &--type--menu {
+      @media (min-width: 320px) {
+        background-image: url("../img/burger.svg");
+        align-self: flex-start;
+        margin: 24px 16px 0 16px;
+      }
+      @media (min-width: 1440px) {
+        display: none;
+      }
+    }
+    &--type--call {
+      @media (min-width: 320px) {
+        display: none;
+        background-image: url("../img/icon-call.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 24px 16px 0 0;
+      }
+      @media (min-width: 768px) {
+        display: block;
+
+      }
+      @media (min-width: 1440px) {
+        display: none;
+      }
+    }
+    &--type--chat {
+      @media (min-width: 320px) {
+        display: none;
+        background-image: url("../img/icon-chat.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 24px 16px 0 0;
+      }
+      @media (min-width: 768px) {
+        display: block;
+
+      }
+      @media (min-width: 1440px) {
+        display: none;
+      }
+    }
+    &--type--profile {
+      @media (min-width: 320px) {
+        display: none;
+        background-image: url("../img/icon-profile.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 24px 34px 0 0;
+      }
+      @media (min-width: 768px) {
+        display: flex;
+
+      }
+      @media (min-width: 1440px) {
+        display: none;
+      }
+    }
+    &:hover {
+      @media (min-width: 320px) {
+        background-color: rgba($dark-grey, 0.82);
+        transition: background-color 400ms linear 0s;
+      }
+    }
+  &--type-in-menu {
+    @media (min-width: 320px) {
+      display: block;
+    }
+  }
+  }
+
